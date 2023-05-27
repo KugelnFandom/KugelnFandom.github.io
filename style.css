@@ -1,0 +1,17 @@
+* { 
+background: rgb(191,210,85);
+background: radial-gradient(circle, rgba(191,210,85,1) 0%, rgba(230,233,148,1) 100%);
+}
+
+p { background: transparent; }
+
+i { color: crimson;
+background: transparent;
+}
+
+.egg {display: center; 
+    margin-left: auto;
+    margin-right: auto;
+    width: 8em;
+  margin-top: 2em;
+}
