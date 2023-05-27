@@ -1,2 +1,2 @@
 # KugelnFandom.github.io
-&lt;fandom for Kugln.io>
+&lt;fandom for Kugeln.io>
