@@ -1,17 +1,49 @@
-* { 
-background: rgb(191,210,85);
-background: radial-gradient(circle, rgba(191,210,85,1) 0%, rgba(230,233,148,1) 100%);
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@600&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration-line: none;
+    list-style: none;
+    color: white;
 }
 
-p { background: transparent; }
-
-i { color: crimson;
-background: transparent;
+body {
+    background: #141414;
 }
 
-.egg {display: center; 
-    margin-left: auto;
-    margin-right: auto;
-    width: 8em;
-  margin-top: 2em;
+.navbar {
+    width: 100%;
+    height: 15vh;
+    display: flex;
+    position: fixed;
+    background-image: url(background.png);
+}
+
+.navbar .logo {
+    width: 50%;
+    height: 15vh;
+    line-height: 15vh;
+    padding-left: 5%;
+    font-family: Rubik;
+    font-size: 1.5em;
+}
+
+.navbar .menu {
+    width: 50%;
+    height: 15vh;
+    font-family: Rubik;
+}
+
+.navbar .menu ul {
+    display: flex;
+    margin-left: 10vw;
+}
+
+.navbar .menu ul li {
+    display: flex;
+    line-height: 15vh;
+    font-size: 15px;
+    margin-right: 50px;
 }
